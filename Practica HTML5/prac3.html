@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+	header{
+		width: 500px;
+		background-color: blue;
+		text-align: center; /*centra el texto*/	
+		margin: 15px auto;/*cualquiera que sea el tama;o de la ventana siempre estara centrado*/
+		padding: 20px;
+		border: 5px solid red;/*coloca un borde alrededor*/
+		border-radius: 100px;/*redondea los bordes para que sean circulares las esquinas */
+		box-shadow: black 5px 5px 4px;/* le da sombra, desplazamiento horizontal-vertical-difuminacion*/
+		background: -moz-linear-gradient(top, blue,#3ff);/*degradado en mozzila (desde donde(top-arriba/bottom-abajo/left-izquierda/rigth-derecha), color inicial (se puede agragar un porcentaje), color final)*/
+		background: -webkit-radial-gradient(center,circle, blue,#3ff);/*en chome*//*degradado circular*/
+		background: -ms-radial-gradient(center,ellipse, blue,#3ff);/*en internet explore*//*degradado en elipse*/
+		background: -o-linear-gradient(top, blue,#3ff);/*en opera*/
+		outline: 2px dashed green;/*borde exterior*/
+		/*-moz-transform:scale(-2);*//* cambiar tama;o del elemento*//*si colocas valores negativos, inviertes */
+		
+		/*-moz-transform:rotate(30deg);*//*para rotar elementos*/
+
+		-moz-transition:-moz-transform 1s ease 0.5s;/*una transicion, segundo que tarda en iniciarla y el tiempo que toma acabo */
+		}
+
+	#principal:hover{
+			-moz-transform:skew(180deg);/*inclinacion*/
+		
+	}/*a;ade una fuente a la pagina*/
+	@font-face{
+		font-family: 'letra';
+		src:url(lastninja.ttf);
+	}
+	#titulo{
+		font: bold 36px 'letra';/*tama;o y tipo de fuente */
+		text-shadow: black 5px 2px 1px;/*sombra al texto */ 
+		color: rgba(255,0,255,0.95);
+
+
+	}
+	</style>
+</head>
+<body>
+<header id="principal">
+	<span id="titulo">titulo</span>
+</header>
+	
+
+</body>
+</html>

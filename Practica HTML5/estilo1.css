@@ -1,0 +1,37 @@
+body{ 
+	background-color: white;
+}
+/*
+	esto es un comentario en css 
+*/
+#cabecera {
+	background-color: gray;
+}
+li{
+	background-color: yellow;
+	display: inline;
+}
+
+aside {
+	float:left;
+	background-color: red;
+	/*text-decoration-color: white;*/
+	height: 1020px;
+	margin-right: 5px;clear: both;
+}
+
+nav {
+	background-color: black;
+}
+
+section{
+	background-color: blue;
+	margin-left: 10px;
+	padding-top: 15px;
+	
+} 
+
+footer {
+
+	background-color: purple;
+}

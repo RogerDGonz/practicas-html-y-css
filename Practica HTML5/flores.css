@@ -1,0 +1,78 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+
+body{
+	font-size: 70%;
+
+}
+
+h1{
+
+	font:normal 2.4em sans-serif;/*tama;o mulyiplicado de la letra cantem*/
+	background:-webkit-linear-gradient(top,blue,#0fc);
+	width: 35%;/*para que no ocupe el 100% del ancho de la pagina*/
+	border-radius:20px;
+	margin:20px  auto;
+	text-align: center;
+	padding: 5px; /*distancia del contenido al borde del contenedor*/
+	color: white;
+	text-shadow: black 2px 2px 2px;
+	box-shadow: black 3px 5px 4px;
+
+}
+
+h2{
+	font: bold 25px sans-serif;
+	margin: 0;
+	padding: 5px 0px 5px 8px;
+	color: black;
+}
+
+section{
+	width: 90%;
+	border-top:1px dashed gray;
+	margin: 15px auto; 
+}
+
+figure{
+	float: left;
+	text-align: center;
+	font:bold 12px sans-serif;
+	margin-top: 10px;
+
+	
+}
+figure img{
+	background: gray;
+	padding: 3px;
+	border-radius: 24px;
+	-moz-transition:-moz-transform 0.4s ease-in-out 0.2s;
+	box-shadow: black 2px 2px 10px;
+	margin-bottom: 25px;
+
+}
+
+figure img:hover{
+	-moz-transform:scale(1.2); 
+
+}
+footer{
+	clear: left;
+	padding-top: 100px;
+}
+
+footer p{
+	font:1.5em sans-serif;
+	color: gray;
+}

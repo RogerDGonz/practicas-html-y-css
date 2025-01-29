@@ -1,0 +1,41 @@
+<!--
+etiqueta <vidio></vidio>
+attributos:
+-Src: especifica donde se encuentra el video
+control: pone los botones de los videos 
+autoplay: el video si va ha reproducirse automaticamente en lo que cargue la pag
+loop: si se repite indefinidamente
+poster : imagen portada del video 
+preload: caracteristicas del video antes de cargarlo
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style >
+		
+		#video{
+			width: 720px;
+			margin: 20px auto;
+			background: orange;
+			padding: 5px;
+			border: 2px solid red;
+		}
+
+
+	</style>
+</head>
+<body>
+	<section id="video">
+		<video  id="mivideo" controls width="720"  loop  ><!--poster="imagenes/1.jpg"-->
+		<!-- es importante poner controls antes que autoplay porque sino
+		el usuarion no puede tener los accesorios del videos hasta que el video se termine de reproducir -->
+			<source src="videos/video1.mp4" >
+			<source src="videos/video1.ogg">	
+		</video>
+	</section>
+</body>
+</html>
